@@ -1,15 +1,11 @@
-.section-title {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.188;
+.team__section-title {
+  @include font(16px, 500, 1.888);
     color: $black-color;
     margin-bottom: 10px;
   }
   
-  .title-position {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.188;
+  .team__title-position {
+    @include font(16px, 400, 1.888);
     color: $grey-color;
     margin-bottom: 16px;
   }
@@ -20,46 +16,45 @@
     background-color: $main-bg-color;
   }
   
-  .team-list {
+  .team__list {
     display: flex;
     width: 270px;
     text-align: center;
   }
-  .list-images:not(:last-child) {
+  .team__list-images:not(:last-child) {
     margin-right: 30px;
   }
-  .list-images {
+  .team__list-images {
     border-radius: 0px 0px 4px 4px;
     background-color:$wite-color;
     width: 270px;
-    height: 428px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 
   }
-  .team-img {
+  .team__img {
     display: block;
   }
   
    
   
-  .our-team-list {
+  .our-team__list {
     padding: 30px 32px;
   }
-  .social-list {
+  .team__social-list {
     display: flex;
     justify-content: space-between;
   
     transition-duration: $time-animation;
     transition-timing-function: $bezier-animation;
   }
-  .social-items {
+  .team__social-items {
     width: 44px;
     height: 44px;
   }
   
   
-  .social-list-icon {
+  .team__social-list-icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,6 +75,6 @@
 
   
 
-  .social-icon {
+  .team__social-icon {
     fill: currentColor;
   }

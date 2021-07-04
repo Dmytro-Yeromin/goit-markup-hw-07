@@ -3,21 +3,21 @@
     padding-bottom: 94px;
   }
   
-  .clients-list {
+  .clients__list {
     display: flex;
   
     transition-duration: $time-animation;
     transition-timing-function: $bezier-animation;
   }
   
-  .clients-list-link {
+  .clients__list-link {
     width: 170px;
     height: 92px;
     &:not(:last-child) {
       margin-right: 30px;
     }
   }
-  .clients-icon {
+  .clients__icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,6 +37,6 @@
   }
   
   
-  .clients-items {
+  .clients__items {
     fill: currentColor;
   }

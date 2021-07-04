@@ -4,10 +4,8 @@
   
   .btn-send {
     padding: 10px 56px;
+    @include font(16px, 700, 1.87);
   
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;

@@ -1,13 +1,11 @@
-.link-logotype {
+.header__link-logotype {
     display: block;
     font-family: $text-font-logo;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.192;
+    @include font(26px, 700, 1.192);
     padding-top: 24px;
     padding-bottom: 24px;
   }
-  .logotype-span {
+  .header__logotype-color {
     color: $accent-color;
   }
   
@@ -16,7 +14,7 @@
     border: 1px solid #ececec;
   }
   
-  .navigation-list-link {
+  .header__navigation-list-link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -41,7 +39,7 @@
     align-items: center;
   }
   
-  .nav-list {
+  .header__nav-list {
     display: flex;
   
     align-items: center;
@@ -51,22 +49,22 @@
     transition-timing-function: $bezier-animation;
   }
   
-  .navigation-list-item:not(:last-child) {
+  .header__navigation-list-item:not(:last-child) {
     margin-right: 50px;
   }
   
-  .nav-list-contact {
+  .header__nav-list-contact {
     display: flex;
     margin-left: auto;
   
     transition-duration: $time-animation;
     transition-timing-function: $bezier-animation;
   }
-  .nav-icon:not(:last-child) {
+  .header__nav-icon:not(:last-child) {
     margin-right: 50px;
   }
   
-  .current-link {
+  .header__current-link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -97,7 +95,7 @@
   
   
   
-  .contact-list-link {
+  .header__contact-list-link {
     padding-top: 32px;
     padding-bottom: 32px;
     font-weight: 500;
@@ -118,13 +116,13 @@
   
   
   
-  .icon-mail {
+  .header__icon-mail {
     display: block;
     margin-right: 10px;
     fill: currentColor;
   }
   
-  .icon-phone {
+  .header__icon-phone {
     display: block;
     margin-right: 10px;
     fill: currentColor;

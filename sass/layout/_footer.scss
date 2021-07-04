@@ -14,21 +14,19 @@
   color: $wite-color;
 }
 
-.footer-link-logotype {
+.footer__link-logotype {
   display: block;
   font-family: $text-font-logo;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
+  @include font(26px, 700, 1.192);
   color: $wite-color;
 }
-.address-list {
+.footer__address-list {
   font-style: normal;
   font-weight: 400;
   line-height: 1.714;
   color: $wite-color;
 }
-.address-list-link {
+.footer__address-list-link {
   font-style: normal;
   font-weight: 400;
   line-height: 1.714;
@@ -64,9 +62,8 @@
 
 .social-text {
   margin-bottom: 20px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font(14px, 700, 1.14);
+  
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: $wite-color;
@@ -110,9 +107,7 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   &input::placeholder {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
+    @include font(16px, 400, 1.25);
     align-items: center;
     letter-spacing: 0.03em;
   

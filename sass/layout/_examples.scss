@@ -1,7 +1,5 @@
 .title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.167;
+  @include font(36px, 700, 1.167);
     text-align: center;
     color: $black-color;
     margin-bottom: 50px;
@@ -10,11 +8,11 @@
   .section-we {
     padding-bottom: 94px;
   }
-  .about-img {
+  .examples__about-img {
     display: block;
   }
   
-  .about-list-img {
+  .examples__about-list-img {
     width: 370px;
     height: 294px;
     position: relative;
@@ -22,14 +20,12 @@
       margin-right: 30px;
     }
   }
-  .list-img {
+  .examples__list-img {
     display: flex;
   }
   
-  .about-img-text {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+  .examples__about-img-text {
+    @include font(14px, 700, 1.14);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: $wite-color;
@@ -37,7 +33,7 @@
   
   
   
-  .about-img-articles {
+  .examples__about-img-articles {
     position: absolute;
     bottom: 0;
     right: 0;

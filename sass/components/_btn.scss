@@ -8,9 +8,7 @@
   
   .model-btn {
     font-family: var(--text-font);
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.875;
+    @include font(16px, 700, 1.875);
     letter-spacing: 0.06em;
     padding: 10px 32px;
     color: $wite-color;
@@ -38,10 +36,8 @@
   }
   .social-model-btn {
     font-family: var(--text-font);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.625;
-        cursor: pointer;
+    @include font(16px, 500, 1.625);
+    cursor: pointer;
     padding: 6px 22px;
     border-radius: 4px;
     background-color: $wite-color;
